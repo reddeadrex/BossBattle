@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=myCharacter
+comment0.target=void\ battleStart(Character)
+comment1.params=myMonster
+comment1.target=void\ genMonster(Monster)
+comment2.params=myMonster\ myCharacter\ monsterHealth\ characterHealth
+comment2.target=boolean\ combatManager(Monster,\ Character,\ int,\ int)
+comment3.params=myMonster\ myCharacter\ monsterHealth\ characterHealth
+comment3.target=int\ monsterAttack(Monster,\ Character,\ int,\ int)
+comment4.params=myMonster\ myCharacter\ monsterHealth\ characterHealth
+comment4.target=int\ characterAttack(Monster,\ Character,\ int,\ int)
+numComments=5
