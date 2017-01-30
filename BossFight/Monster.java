@@ -6,6 +6,7 @@ public class Monster
     private int magicDMG;
     private int health;
     private int speed;
+    private int xpValue;
 
 
 
@@ -21,8 +22,9 @@ public class Monster
             {
                 health=gen;
                 i++;
-            }
+            } 
         }
+        xpValue = magicDMG+meleeDMG;
 
         speed = (int)((Math.random()*100)+1);
     }
@@ -60,6 +62,13 @@ public class Monster
      public int speed()
     {
         return speed;
+    }
+    
+    
+    
+    public int xpValue()
+    {
+        return xpValue;
     }
 
     private static String randName()
