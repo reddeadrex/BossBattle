@@ -143,6 +143,5 @@ public class Battle
 
 
         return monsterHealth;
-
     }
 }
