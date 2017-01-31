@@ -64,7 +64,7 @@ public class Character
             levelUp();
             xp-=100;
             System.out.println(name() + " leveled up!");
-            System.out.println("Apply skill point: Press 1 to increase Melee Damage, Press 2 to increase Magic Damage, Press 3 to increase Health")
+            System.out.println("Apply skill point: Press 1 to increase Melee Damage, Press 2 to increase Magic Damage, Press 3 to increase Health");
             applySkillPoint();
         }
     }
