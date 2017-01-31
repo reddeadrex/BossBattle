@@ -1,12 +1,7 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+Prepare for trouble!
+Make it double!
+To protect the world from devastation!
+To unite all peoples within our nation!
+To denounce the evils of truth and love!
+To extend our reach to the stars above!
+Surrender now, or prepare to fight!
