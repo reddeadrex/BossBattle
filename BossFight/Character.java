@@ -63,10 +63,38 @@ public class Character
         {
             levelUp();
             xp-=100;
+            System.out.println(name() + " leveled up!");
+            System.out.println("Apply skill point: Press 1 to increase Melee Damage, Press 2 to increase Magic Damage, Press 3 to increase Health")
+            applySkillPoint();
         }
     }
 
-    public void upgradeMeleeDMG(int upgrade)
+   public void applySkillPoint()
+   {
+       Scanner input = new Scanner(System.in);
+       int skillChoice = input.nextInt();
+       
+       if(skillChoice==1)
+       {
+            upgradeMeleeDMG(1);
+       }
+       
+       else if (skillChoice==2)
+       {
+            upgradeMagicDMG(1);
+       }
+       
+       else if(skillChoice==3)
+       {
+            upgradeHealth(1);
+       }
+       return;
+    }
+
+        
+   
+   
+   public void upgradeMeleeDMG(int upgrade)
     {
         meleeDMG+=upgrade;
     }
