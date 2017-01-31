@@ -13,9 +13,9 @@ public class Battle
         if (combatManager(myMonster, myCharacter, monsterHealth, characterHealth))
         {
           System.out.println("You have slain the monster! Congratulations!");
-          int gainExp = (int)(myCharacter.maxHealth()*0.25);
-          myCharacter.applyEarnedXP(gainExp);
-          System.out.println("You gained " + gainExp + " XP!");
+          
+          myCharacter.applyEarnedXP(myMonster.xpValue());
+          System.out.println("You gained " + myMonster.xpValue() + " XP!");
           return;
         }
 
