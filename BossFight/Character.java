@@ -51,10 +51,6 @@ public class Character
        System.out.println("Speed: " + speed);
     }
 
-    public int experience()
-    {
-        return xp;
-    }
 
     public void applyEarnedXP(int earnedXP)
     {
@@ -73,17 +69,17 @@ public class Character
    {
        Scanner input = new Scanner(System.in);
        int skillChoice = input.nextInt();
-       
+
        if(skillChoice==1)
        {
             upgradeMeleeDMG(1);
        }
-       
+
        else if (skillChoice==2)
        {
             upgradeMagicDMG(1);
        }
-       
+
        else if(skillChoice==3)
        {
             upgradeHealth(1);
@@ -91,9 +87,9 @@ public class Character
        return;
     }
 
-        
-   
-   
+
+
+
    public void upgradeMeleeDMG(int upgrade)
     {
         meleeDMG+=upgrade;
@@ -142,6 +138,14 @@ public class Character
      public int speed()
     {
         return speed;
+    }
+    public int experience()
+    {
+      return xp;
+    }
+    public int level()
+    {
+      return level;
     }
 
 
